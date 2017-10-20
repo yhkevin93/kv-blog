@@ -1,11 +1,11 @@
 <template>
 	<div class="main">
 
-		<el-collapse-transition>
+		
 			<div v-show="show">
 				<img style="width: 500px;" src="../../assets/title.png" />
 			</div>
-		</el-collapse-transition>
+		
 	</div>
 </template>
 

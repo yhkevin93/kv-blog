@@ -1,16 +1,17 @@
 <template>
 
 	<div>
-		<transition name="fade">
+		
 			<div class="main" v-if="show">
 				<p class="title">个人简介</p>
 				<p class="index">姓名：颜浩</p>
 				<p class="index">90后程序员一枚，出于兴趣所以做了一个博客，博客完全是自己搭建的，前端使用的vue套餐，后端则用的nodejs， 搭建博客的目的也在于可以把自己的平时学习到的发现到的能个自己分享上来， 也可以给自己巩固久了不用的知识点。
 				</p>
 				<p class="index">欢迎技术交流，QQ：394713927</p>
+				
 			</div>
 			
-		</transition>
+		
 	</div>
 
 </template>
